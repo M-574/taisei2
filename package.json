@@ -13,6 +13,11 @@
   "resolutions": {
     "webpack": "4.46.0"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "prd": "webpack --mode production"
+  },
   "version": "0.1.0",
   "babel": {
     "presets": [
